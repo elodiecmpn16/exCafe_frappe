@@ -69,7 +69,8 @@
   width: 100%;
 }
 
-.mail, .num {
+.mail,
+.num {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -82,7 +83,8 @@
   width: 50%;
 }
 
-.social ul, .social .social-set {
+.social ul,
+.social .social-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +102,8 @@
   padding: 0;
 }
 
-.social ul li, .social .social-set li {
+.social ul li,
+.social .social-set li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,7 +119,7 @@
 }
 
 .devis {
-  background-color: #DF6823;
+  background-color: #df6823;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,29 +130,31 @@
           align-items: flex-end;
 }
 
+.nav {
+  background-color: grey;
+}
+
 .nav .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
 }
 
 .nav .menu ul {
-  margin: 0px;
-  padding: 0px;
-  background: grey;
-  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.nav .menu ul a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
+.nav .menu ul li {
+  list-style-type: none;
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -39,8 +39,8 @@
             <li><a href="#">TEXTILES PERSONNALISES</a></li>
             <li><a href="#">PROMOTION EVENEMENTIELLE</a></li>
             <li><a href="#"> VISIBILITE</a> </li>
-            <li><a href="#">OBJETS PROMOTIONNELLE</a>  </li>
-            <li><a href="#">PRESENTATION</a></li>   
+            <li><a href="#">OBJETS PROMOTIONNELLE</a> </li>
+            <li><a href="#">PRESENTATION</a></li>
             <li><a href="#">INFOS UTILES</a></li>
         </ul>
     </nav>

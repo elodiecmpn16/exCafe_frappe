@@ -1,86 +1,89 @@
 //blacknav
-.blacknav{
-    background-color: black;
-    color: white;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    justify-content: start;
-    align-items: center;
-    flex-wrap: wrap;
+.blacknav {
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.branding{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 20%;
+.branding {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 20%;
 }
-.restbranding{
+.restbranding {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  align-items: center;
+  .contact {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
-    align-items: center;
-    .contact{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  }
 }
-    .text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    .mail,.num{
-        justify-content: center;
-        display: flex;
-        align-items: flex-start;
-        width: 50%;
-    }
-  .social{
-      ul,.social-set{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        list-style: none;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-      li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        flex-wrap: wrap;
-      }
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.mail,
+.num {
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+}
+.social {
+  ul,
+  .social-set {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      flex-wrap: wrap;
     }
   }
-  .devis{
-    background-color: #DF6823;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-  }
-    
+}
+.devis {
+  background-color: #df6823;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
 //finblacknav
 //menu header
 .nav {
-    .menu {
-        display: flex;
-        flex-direction : row; 
-        justify-content: flex-end; 
+  background-color: grey;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-items: center;
 
     ul {
-    margin: 0px;
-    padding: 0px;
-    background: grey;
-    list-style:none;
-    a {
-    display: block;
-    text-align:center;
-    text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        list-style-type: none;
+        margin: 10px;
+      }
     }
+  }
 }
-}}
