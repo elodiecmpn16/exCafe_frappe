@@ -34,15 +34,16 @@
             </div>
         </div>
     </div>
-    <nav class="nav">
-        <ul class="menu">
-            <li><a href="#">TEXTILES PERSONNALISES</a></li>
-            <li><a href="#">PROMOTION EVENEMENTIELLE</a></li>
-            <li><a href="#"> VISIBILITE</a> </li>
-            <li><a href="#">OBJETS PROMOTIONNELLE</a> </li>
-            <li><a href="#">PRESENTATION</a></li>
-            <li><a href="#">INFOS UTILES</a></li>
-        </ul>
-    </nav>
-
+    <div class="menu_nav">
+        <nav>
+            <ul>
+                <li><a href="#">TEXTILES PERSONNALISES</a></li>
+                <li><a href="#">PROMOTION EVENEMENTIELLE</a></li>
+                <li><a href="#"> VISIBILITE</a> </li>
+                <li><a href="#">OBJETS PROMOTIONNELLE</a> </li>
+                <li><a href="#">PRESENTATION</a></li>
+                <li><a href="#">INFOS UTILES</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
