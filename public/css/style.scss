@@ -292,24 +292,36 @@ header {
       width: 100%;
       margin: 2% 0 2% 0;
       flex-wrap: wrap;
+      justify-content: space-between;
       .contentActu {
         display: flex;
-        width: 25%;
+        width: 23% !important;
+        justify-content: center;
+        &:hover {
+          .overlay {
+            background-color: #3a579d;
+            display: block;
+            width: 305px;
+            height: 305px;
+            position: absolute;
+          }
+          .textActu {
+            display: block;
+            color: white;
+            padding: 2%;
+            text-align: center;
+            max-width: 305px;
+          }
+        }
+        .textActu {
+          display: none;
+          position: absolute;
+          margin-left: auto;
+          margin-right: auto;
+        }
         .imgActu img {
           position: relative;
           z-index: 0;
-          .overlay &:hover {
-            width: 262px;
-            height: 262px;
-            position: absolute;
-            z-index: 997;
-            .textActu {
-              display: none;
-              position: absolute;
-              margin-left: auto;
-              margin-right: auto;
-            }
-          }
         }
       }
     }
@@ -373,7 +385,7 @@ header {
     height: 2px;
     color: white;
   }
-  p{
+  p {
     margin-left: 6%;
   }
 }
@@ -397,6 +409,28 @@ header {
     .sideVideo,
     .mainVideo {
       width: 100%;
+    }
+  }
+  .mainActu {
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    .contentActu {
+      width: 100%;
+      height: auto;
+      .overlay {
+        width: 262px;
+        height: 262px;
+      }
+      .imgActu {
+        opacity: 0.5;
+        .textActu {
+          display: block;
+          width: 262px;
+          height: auto;
+          margin: auto;
+        }
+      }
     }
   }
 }

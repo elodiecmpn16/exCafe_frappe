@@ -552,32 +552,47 @@ header .menu_nav ul li {
   margin: 2% 0 2% 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .wrapperActus .actus .mainActu .contentActu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 25%;
+  width: 23% !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapperActus .actus .mainActu .contentActu:hover .overlay {
+  background-color: #3a579d;
+  display: block;
+  width: 305px;
+  height: 305px;
+  position: absolute;
+}
+
+.wrapperActus .actus .mainActu .contentActu:hover .textActu {
+  display: block;
+  color: white;
+  padding: 2%;
+  text-align: center;
+  max-width: 305px;
+}
+
+.wrapperActus .actus .mainActu .contentActu .textActu {
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wrapperActus .actus .mainActu .contentActu .imgActu img {
   position: relative;
   z-index: 0;
-}
-
-.overlay .wrapperActus .actus .mainActu .contentActu .imgActu img:hover {
-  width: 262px;
-  height: 262px;
-  position: absolute;
-  z-index: 997;
-}
-
-.overlay .wrapperActus .actus .mainActu .contentActu .imgActu img:hover .textActu {
-  display: none;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .wrapperFooter {
@@ -706,6 +721,32 @@ header .menu_nav ul li {
   .video .sideVideo,
   .video .mainVideo {
     width: 100%;
+  }
+  .mainActu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .mainActu .contentActu {
+    width: 100%;
+    height: auto;
+  }
+  .mainActu .contentActu .overlay {
+    width: 262px;
+    height: 262px;
+  }
+  .mainActu .contentActu .imgActu {
+    opacity: 0.5;
+  }
+  .mainActu .contentActu .imgActu .textActu {
+    display: block;
+    width: 262px;
+    height: auto;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

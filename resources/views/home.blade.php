@@ -123,22 +123,42 @@
                 <div class="contentActu">
                     <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
                     <div class="overlay"> </div>
-                    <div class="textActu">Hello World 1</div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
                 </div>
                 <div class="contentActu">
                     <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
                     <div class="overlay"> </div>
-                    <div class="textActu">Hello World 1</div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
                 </div>
                 <div class="contentActu">
                     <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
                     <div class="overlay"> </div>
-                    <div class="textActu">Hello World 1</div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
                 </div>
                 <div class="contentActu">
                     <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
                     <div class="overlay"></div>
-                    <div class="textActu">Hello World 1</div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
+                </div>
+                <div class="contentActu">
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"></div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
+                </div>
+                <div class="contentActu">
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"></div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
+                </div>
+                <div class="contentActu">
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"></div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
+                </div>
+                <div class="contentActu">
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"></div>
+                    <div class="textActu">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat omnis perferendis, blanditiis ratione architecto quod incidunt earum quisquam odio voluptas expedita obcaecati sunt repellat nesciunt sint quam delectus placeat odit.</div>
                 </div>
                 
             </div>
