@@ -240,6 +240,10 @@ header {
   .mainVideo {
     width: 70%;
     display: flex;
+    .videoPlay {
+      margin: 0;
+      width: 100%;
+    }
   }
 }
 //actualités
@@ -283,25 +287,100 @@ header {
         }
       }
     }
-.mainActu{
-    display: flex;
-    width: 100%;
-    margin: 2% 0 2% 0;
-    flex-wrap: wrap;
-    .contentActu{
+    .mainActu {
       display: flex;
-      width: 25%;
-      .imgActu{
-        position: relative;
+      width: 100%;
+      margin: 2% 0 2% 0;
+      flex-wrap: wrap;
+      .contentActu {
+        display: flex;
+        width: 25%;
+        .imgActu img {
+          position: relative;
+          z-index: 0;
+          .overlay &:hover {
+            width: 262px;
+            height: 262px;
+            position: absolute;
+            z-index: 997;
+            .textActu {
+              display: none;
+              position: absolute;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+        }
+      }
     }
   }
 }
 
+//footer
+.wrapperFooter {
+  display: flex;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .coordonnees > p {
+    color: grey;
   }
-  
+  .titreFooter {
+    margin: 30px 0px 30px 0px;
+  }
+  .categoriesFooter {
+    list-style-type: none;
+    li {
+      line-height: 36px;
+      a {
+        text-decoration: none;
+        color: grey;
+      }
+    }
+  }
+  .ddeInfos > p {
+    color: grey;
+  }
+  .socialSetFooter {
+    .socialFooter {
+      display: flex;
+      .social-set {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+.copyright {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: grey;
+  justify-content: flex-start;
+  hr {
+    display: block;
+    height: 2px;
+    color: white;
+  }
+  p{
+    margin-left: 6%;
+  }
+}
+
 @media (max-width: 376px) {
   .restbranding {
-    flex-direction: column;F
+    flex-direction: column;
   }
   .devis {
     width: 100%;

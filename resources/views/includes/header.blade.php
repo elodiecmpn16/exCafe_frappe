@@ -41,7 +41,7 @@
         <ul>
             <li><i class="material-icons">emoji_emotions</i><a href="#">TEXTILES PERSONNALISES</a></li>
             <li><i class="material-icons">emoji_emotions</i><a href="#">PROMOTION EVENEMENTIELLE</a></li>
-            <li><i class="material-icons">emoji_emotions</i><a href="#"> VISIBILITE</a> </li>
+            <li><i class="material-icons">emoji_emotions</i><a href="#">VISIBILITE</a> </li>
             <li><i class="material-icons">emoji_emotions</i><a href="#">OBJETS PROMOTIONNELLE</a> </li>
             <li><a href="#">PRESENTATION </a></li>
             <li><a href="#">INFOS UTILES</a></li>

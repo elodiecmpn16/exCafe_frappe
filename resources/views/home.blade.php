@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="mainVideo">
-            <iframe width="1063" height="361" src="https://www.youtube.com/embed/arTM0-FGvS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="1363" height="461" src="https://www.youtube.com/embed/arTM0-FGvS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoPlay"></iframe>
         </div>
     </div>
     <div class="wrapperActus">
@@ -121,41 +121,27 @@
             </div>
             <div class="mainActu">
                 <div class="contentActu">
-                    <div class="hoverEffect">
-                        <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
-                        <div class="overlay">
-                            <div class="textActu">Hello World 1</div>
-                        </div>
-                    </div>
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"> </div>
+                    <div class="textActu">Hello World 1</div>
                 </div>
                 <div class="contentActu">
-                    <div class="hoverEffect">
-                        <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
-                        <div class="overlay">
-                            <div class="textActu">Hello World 1</div>
-                        </div>
-                    </div>
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"> </div>
+                    <div class="textActu">Hello World 1</div>
                 </div>
                 <div class="contentActu">
-                    <div class="hoverEffect">
-                        <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
-                        <div class="overlay">
-                            <div class="textActu">Hello World 1</div>
-                        </div>
-                    </div>
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"> </div>
+                    <div class="textActu">Hello World 1</div>
                 </div>
                 <div class="contentActu">
-                    <div class="hoverEffect">
-                        <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
-                        <div class="overlay">
-                            <div class="textActu">Hello World 1</div>
-                        </div>
-                    </div>
+                    <img src="https://picsum.photos/120/120" alt="actus" class="imgActu">
+                    <div class="overlay"></div>
+                    <div class="textActu">Hello World 1</div>
                 </div>
-    
-
+                
             </div>
         </div>
     </div>
-</div>
-@endsection('content')
+    @endsection('content')
