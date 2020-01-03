@@ -159,12 +159,12 @@
                 </div>
                 <div class="infoPresActu">
                     <div class="titreMosaic titreMain">
-                        <h2>EN DIRECT</h2>
+                        <h2>EN DIRECT !</h2>
                     </div>
                     <div class="socialActu">
                         <ul class="socialSetActu">
-                            <li class="sociali"><img src="{{asset('img/icon/fb.png')}}" width="30" height="30" class="logo" alt=""></li>
-                            <li class="sociali"><img src="{{asset('img/icon/linkedin.png')}}" width="30" height="30" class="logo" alt=""></li>
+                            <li class="sociali"><img src="{{asset('img/icon/fb.png')}}" width="30" height="50" class="logo" alt=""></li>
+                            <li class="sociali"><img src="{{asset('img/icon/linkedin.png')}}" width="30" height="50" class="logo" alt=""></li>
                         </ul>
                     </div>
                 </div>

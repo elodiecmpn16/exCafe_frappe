@@ -664,6 +664,11 @@ header .menu_nav ul li i {
   width: 50%;
 }
 
+.wrapperActus .actus .presActu h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 .wrapperActus .actus .mainActu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -690,8 +695,8 @@ header .menu_nav ul li i {
 .wrapperActus .actus .mainActu .contentActu:hover .overlay {
   background-color: #3a579d;
   display: block;
-  width: 244px;
-  height: 244px;
+  width: 305px;
+  height: 305px;
   position: absolute;
 }
 
@@ -792,6 +797,10 @@ header .menu_nav ul li i {
           align-items: center;
 }
 
+.wrapperFooter .socialSetFooter .socialFooter .social-set li img {
+  height: auto;
+}
+
 .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -824,23 +833,6 @@ header .menu_nav ul li i {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapperCat {
-    margin: 5% 0% 5% 0%;
-  }
-  .wrapperCat .categories {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-right: 80px;
-  }
-  .wrapperMosaic .mosaic .contentMosaic {
-    display: none;
-  }
-  .wrapperMosaic .mosaic .sliderResponsive {
-    display: block;
-  }
-  .divider {
-    display: none;
-  }
   .contact,
   .social {
     margin: 20px;
@@ -860,6 +852,23 @@ header .menu_nav ul li i {
   .menu_nav li {
     min-width: 190px;
     margin: 5%;
+  }
+  .divider {
+    display: none;
+  }
+  .wrapperCat {
+    margin: 5% 0% 5% 0%;
+  }
+  .wrapperCat .categories {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-right: 80px;
+  }
+  .wrapperMosaic .mosaic .contentMosaic {
+    display: none;
+  }
+  .wrapperMosaic .mosaic .sliderResponsive {
+    display: block;
   }
   .accessories .restAccessories {
     -webkit-box-orient: vertical;
@@ -911,6 +920,16 @@ header .menu_nav ul li i {
   }
   #textResponsive {
     padding: 9% !important;
+  }
+  .wrapperFooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5%;
   }
   .wrapperFooter .socialSetFooter {
     padding-bottom: 10%;
