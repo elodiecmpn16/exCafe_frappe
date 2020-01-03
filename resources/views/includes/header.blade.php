@@ -11,11 +11,15 @@
                 </div>
                 <div class="info">
                     <div class="num">
-                        <i class="material-icons">emoji_emotions</i>
+                        <i class="material-icons">
+                            phone_iphone
+                        </i>
                         <p>numero</p>
                     </div>
                     <div class="mail">
-                        <i class="material-icons">emoji_emotions</i>
+                        <i class="material-icons">
+                            email
+                        </i>
                         <p>mail</p>
                     </div>
                 </div>
@@ -29,8 +33,10 @@
                 </ul>
             </section>
             <div class="devis">
-                <img src="{{asset('img/icon/shop.png')}}" width="40" height="40" class="" alt="">
-                <div>
+                <div class="devisIcon">
+                    <i class="material-icons">shopping_cart</i>
+                </div>
+                <div class="textDevis">
                     <p>FAITES VOTRE DEVIS</p>
                 </div>
             </div>
@@ -39,11 +45,16 @@
 
     <div class="menu_nav">
         <ul>
-            <li><i class="material-icons">emoji_emotions</i><a href="#">TEXTILES PERSONNALISES</a></li>
-            <li><i class="material-icons">emoji_emotions</i><a href="#">PROMOTION EVENEMENTIELLE</a></li>
-            <li><i class="material-icons">emoji_emotions</i><a href="#">VISIBILITE</a> </li>
-            <li><i class="material-icons">emoji_emotions</i><a href="#">OBJETS PROMOTIONNELLE</a> </li>
-            <li><a href="#">PRESENTATION </a></li>
+            <li><i class="material-icons">fingerprints</i><a href="#">TEXTILES PERSONNALISES</a></li>
+            <div class="divider"></div>
+            <li><i class="material-icons">monetization_on</i><a href="#">PROMOTION EVENEMENTIELLE</a></li>
+            <div class="divider"></div>
+            <li><i class="material-icons">remove_red_eye</i><a href="#">VISIBILITE</a> </li>
+            <div class="divider"></div>
+            <li><i class="material-icons">copyright</i><a href="#">OBJETS PROMOTIONNELLE</a> </li>
+            <div class="divider"></div>
+            <li><a href="#">PRESENTATION</a></li>
+            <div class="divider"></div>
             <li><a href="#">INFOS UTILES</a></li>
         </ul>
     </div>
